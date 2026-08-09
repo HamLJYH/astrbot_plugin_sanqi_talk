@@ -1,0 +1,26 @@
+{
+    "anti_spam_enabled": {
+        "description": "是否开启用户防刷屏机制",
+        "type": "bool",
+        "hint": "开启后，同一用户在指定时间间隔内只能触发一次随机语句",
+        "default": true
+    },
+    "anti_spam_interval": {
+        "description": "用户防刷屏时间间隔（秒）",
+        "type": "int",
+        "hint": "同一用户在此时间间隔内重复触发将被拒绝",
+        "default": 10
+    },
+    "group_daily_limit_enabled": {
+        "description": "是否开启群聊每日触发限制",
+        "type": "bool",
+        "hint": "开启后，每个群聊每天最多只能触发指定次数的随机语句",
+        "default": true
+    },
+    "group_daily_limit": {
+        "description": "群聊每日触发次数上限",
+        "type": "int",
+        "hint": "每个群聊每天最多可触发随机语句的次数",
+        "default": 50
+    }
+}
