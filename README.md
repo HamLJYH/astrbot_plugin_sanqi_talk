@@ -88,7 +88,7 @@
 ---
 注：
 
-本仓库代码来自原插件name: astrbot_plugin_march7th 因部分问题，所以迁至本仓库
+本仓库代码来自原插件 astrbot_plugin_march7th 因部分问题，所以迁至本仓库
 
 ---
 
