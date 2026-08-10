@@ -79,8 +79,7 @@
 ```json
 [
   {
-    "content": "语句内容",
-    "source": "来源"
+    "content": "语句内容"
   }
 ]
 ```
