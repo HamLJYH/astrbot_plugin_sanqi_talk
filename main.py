@@ -24,7 +24,7 @@ from astrbot.api.event import filter, AstrMessageEvent
 from astrbot.api.star import Context, Star, register
 from astrbot.api import logger
 
-__version__ = "1.0.2"
+__version__ = "1.0.4"
 
 # 常量
 MAX_CONTENT_LENGTH = 500
