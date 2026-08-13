@@ -7,8 +7,8 @@ AstrBot 三月七语句插件
 - 用户级防刷屏与群聊日限机制
 
 作者: HamLJYH
-版本: 1.0.4
-日期: 2026-08-10
+版本: 1.0.5
+日期: 2026-08-14
 """
 
 # 标准库
@@ -24,7 +24,7 @@ from astrbot.api.event import filter, AstrMessageEvent
 from astrbot.api.star import Context, Star, register
 from astrbot.api import logger
 
-__version__ = "1.0.4"
+__version__ = "1.0.5"
 
 # 常量
 MAX_CONTENT_LENGTH = 500
@@ -49,7 +49,7 @@ def handle_errors(func):
     return wrapper
 
 
-@register("march7th_quotes", "HamLJYH", "三月七语句插件", "1.0.4", "https://github.com/yourname/astrbot_plugin_sanqi_talk")
+@register("march7th_quotes", "HamLJYH", "三月七语句插件", "1.0.5", "https://github.com/yourname/astrbot_plugin_sanqi_talk")
 class March7thQuotesPlugin(Star):
     def __init__(self, context: Context, config: Dict[str, Any] = None):
         super().__init__(context)
