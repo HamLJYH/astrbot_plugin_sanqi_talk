@@ -1,6 +1,6 @@
 name: astrbot_plugin_sanqi_talk
 desc: 三月七语句插件 - 随机输出崩坏星穹铁道中三月七的经典台词，该插件从旧版仓库，迁到新版仓库，所以更名了
 short_desc: 三月七随机语句插件
-version: 1.0.4
+version: 1.0.5
 author: HamLJYH
 repo: https://github.com/HamLJYH/astrbot_plugin_sanqi_talk
