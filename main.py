@@ -49,7 +49,7 @@ def handle_errors(func):
     return wrapper
 
 
-@register("march7th_quotes", "HamLJYH", "三月七语句插件", "1.0.2", "https://github.com/yourname/astrbot_plugin_march7th")
+@register("march7th_quotes", "HamLJYH", "三月七语句插件", "1.0.4", "https://github.com/yourname/astrbot_plugin_sanqi_talk")
 class March7thQuotesPlugin(Star):
     def __init__(self, context: Context, config: Dict[str, Any] = None):
         super().__init__(context)
